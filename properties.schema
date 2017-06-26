@@ -23,10 +23,7 @@
 									"required": true,
 									"default": true,
 									"title": "Enable search",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -55,10 +52,7 @@
 									"required": true,
 									"default": true,
 									"title": "Enable search",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -87,10 +81,7 @@
 									"required": true,
 									"default": true,
 									"title": "Enable search",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -119,10 +110,7 @@
 									"required": true,
 									"default": true,
 									"title": "Enable search",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -154,10 +142,7 @@
 									"required": true,
 									"default": true,
 									"title": "Enable search",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -184,10 +169,7 @@
 									"required": true,
 									"default": true,
 									"title": "Show found words",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -196,10 +178,7 @@
 									"required": true,
 									"default": true,
 									"title": "Show highlights",
-									"inputType": {
-										"type": "Boolean",
-										"options": [true, false]
-									},
+									"inputType": "Checkbox",
 									"validators": [],
 									"help": ""
 								},
@@ -229,7 +208,7 @@
 									"inputType": "Number",
 									"validators": ["number"],
 									"help": "Extra points for a repeat match"
-								},                
+								},
 								"title": {
 									"type": "string",
 									"default": "Search",
@@ -272,7 +251,7 @@
 								}
 							}
 						}
-					}	
+					}
 				}
 			}
 		}
